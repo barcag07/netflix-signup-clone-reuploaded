@@ -2,4 +2,58 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Netflix sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.main-content-container {
+    /* background-image: url(../img/main-netflix-movies.jpg); */
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 23px 167px  23px 155px;
+    /* border: 3px solid black; */
+}
+
+.right-header-container {
+    display: flex;
+    /* border: 3px solid red; */
+    gap: 25px;
+    align-items: center;
+}
+
+.language-container {
+    /* border: 3px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    gap: 13px;
+    padding: 4px 8px;
+    border: 1px solid darkblue;
+}
+
+.signin {
+    background-color: rgb(229, 9, 20);
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    color: white;
+    /* border: 3px solid green; */
+}
+
+.language {
+    font-size: 18px;
+}
+
+.signin,
+.language-container {
+    border-radius: 6px;
+    height: 32px;
+}
+
+.logo {
+    font-size: 44px;
+    color: rgb(229, 9, 20);
+    font-weight: 900;
 }
