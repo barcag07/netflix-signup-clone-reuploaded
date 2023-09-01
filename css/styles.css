@@ -5,6 +5,10 @@
     font-family: 'Netflix sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
 
+body {
+    background-color: black;
+}
+
 .main-content-container {
     background-image: url(../img/main-netflix-movies.jpg);
     /* filter: brightness(50%); */
@@ -142,4 +146,63 @@
 .hero-subtext,
 .hero-question {
     color: white;
+}
+
+.banner {
+    height: 145px;
+    margin: 0px 75px 0px 75px;
+    margin-top: -170px;
+    /* border: 3px solid red; */
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(
+        circle
+        
+        farthest-corner at 50% 30px,
+        rgb(84, 5, 18) 0%,
+        rgb(5, 0, 57) 100%
+      );
+}
+
+.banner-text-container {
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.learn-more-container {
+    /* border: 3px solid orange; */
+    display: flex;
+    gap: 5px
+}
+
+.popcorn {
+    width: auto;
+    height: 92px;
+}
+
+.banner-hero-text {
+    font-size: 18px;
+}
+
+.banner-subtext {
+    font-size: 16px;
+}
+
+.banner-hero-text,
+.banner-subtext {
+    color: white;
+}
+
+.learn-more-text a,
+.learn-more-arrow {
+    font-size: 16px;
+    color: rgb(62, 107, 255);
+}
+
+.learn-more-text a {
+    /* font-weight: 700px; */
 }
