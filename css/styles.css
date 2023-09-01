@@ -6,14 +6,17 @@
 }
 
 .main-content-container {
-    /* background-image: url(../img/main-netflix-movies.jpg); */
+    background-image: url(../img/main-netflix-movies.jpg);
+    /* filter: brightness(50%); */
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .5)), url('../img/main-netflix-movies.jpg');
+    color: white;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 23px 167px  23px 155px;
+    padding: 23px 167px  23px 155px;
     /* border: 3px solid black; */
 }
 
@@ -30,7 +33,8 @@
     justify-content: space-evenly;
     gap: 13px;
     padding: 4px 8px;
-    border: 1px solid darkblue;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, .7);
 }
 
 .signin {
@@ -46,6 +50,12 @@
     font-size: 18px;
 }
 
+.globe,
+.language,
+.arrow {
+    color: white;
+}
+
 .signin,
 .language-container {
     border-radius: 6px;
@@ -56,4 +66,80 @@
     font-size: 44px;
     color: rgb(229, 9, 20);
     font-weight: 900;
+}
+
+.hero-container {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 185px 270px 110px 285px;
+}
+
+.hero {
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.hero-text {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.email-container {
+    /* border: 3px solid orange; */
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 115px;
+}
+
+.get-started-container {
+    /* border: 3px solid purple; */
+    display: flex;
+    align-items: center;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    border-radius: 6px;
+    gap: 5px;
+    padding: 18px 25px;
+}
+
+.get-started-text,
+.right-arrow {
+    font-size: 18px;
+}
+
+.email input,
+.get-started-container {
+    height: 55px;
+}
+
+.email input {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 6px;
+    /* border: 3px solid; */
+    width: 375px;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+}
+
+.hero-subtext {
+    font-size: 24px
+}
+
+.hero-question {
+    font-size: 18px;
+}
+
+.hero-text,
+.hero-subtext,
+.hero-question {
+    color: white;
 }
