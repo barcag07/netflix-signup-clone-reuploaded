@@ -34,6 +34,7 @@ body {
 .language-container {
     /* border: 3px solid blue; */
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
     gap: 13px;
     padding: 4px 8px;
@@ -47,6 +48,8 @@ body {
     display: flex;
     align-items: center;
     color: white;
+    font-weight: 500;
+    font-size: 15px;
     /* border: 3px solid green; */
 }
 
@@ -112,6 +115,7 @@ body {
     border-radius: 6px;
     gap: 5px;
     padding: 18px 25px;
+    font-weight: 500;
 }
 
 .get-started-text,
@@ -204,5 +208,65 @@ body {
 }
 
 .learn-more-text a {
-    /* font-weight: 700px; */
+    font-weight: 700;
+}
+
+hr {
+    height: 10px;
+    background-color: rgb(44, 44, 44);
+    border: none;
+}
+
+.box-container {
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 80px 170px;
+    gap: 40px;
+}
+
+.box-hero-container {
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+
+.box-container img {
+    height: auto;
+    width: 200px;
+    flex: 1;
+    /* border: 3px solid green; */
+}
+
+.box-one img {
+    /* border: 3px solid gold; */
+    margin-bottom: -75px;
+    align-items: baseline;
+}
+
+.box-hero-container {
+    flex: 1
+}
+
+.box-hero-text {
+    color: white;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.box-subtext {
+    color: white;
+    font-size: 24px
+}
+
+.box-hero-container.box-two,
+.box-hero-container.box-four {
+    order: 1;
+}
+
+.box-two img,
+.box-four img {
+    order: -1;
 }
