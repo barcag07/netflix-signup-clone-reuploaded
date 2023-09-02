@@ -1,6 +1,5 @@
 /*To Do
-- Change sign-in and get started to buttons
-- Make sure all items are aligned at the end
+
 */
 
 * {
@@ -26,8 +25,10 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 23px 167px  23px 155px;
-    /* border: 3px solid black; */
+    padding: 25px 0px;
+    /* border: 3px solid orange; */
+    margin: 0px 165px 70px 165px;
+
 }
 
 .right-header-container {
@@ -83,6 +84,7 @@ body {
     font-size: 44px;
     color: rgb(229, 9, 20);
     font-weight: 900;
+    /* border: 3px solid green; */
 }
 
 .hero-container {
@@ -238,7 +240,7 @@ hr {
     /* border: 3px solid red; */
     display: flex;
     justify-content: center;
-    padding: 80px 170px;
+    /* padding: 80px 170px; */
     gap: 40px;
 }
 
@@ -391,4 +393,14 @@ hr {
 .call,
 .call a {
     color: rgb(174, 172, 172);
+}
+
+
+.box-container,
+.faq-email-container,
+.footer-container {
+    /* border: 3px solid red; */
+    justify-content: space-between;
+    display: flex;
+    margin: 70px 165px;
 }
