@@ -1,3 +1,8 @@
+/*To Do
+- Change sign-in and get started to buttons
+- Make sure all items are aligned at the end
+*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -120,7 +125,7 @@ body {
 
 .get-started-text,
 .right-arrow {
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .email input,
@@ -143,7 +148,7 @@ body {
 }
 
 .hero-question {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .hero-text,
@@ -269,4 +274,74 @@ hr {
 .box-two img,
 .box-four img {
     order: -1;
+}
+
+.faq-email-container {
+    /* border: 3px solid darkcyan; */
+    margin: 70px 165px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.faq-container {
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.faq-text {
+    text-align: center;
+    /* border: 3px solid black; */
+    font-size: 45px;
+    font-weight:900;
+    color: white;
+}
+
+.question-container {
+    /* border: 3px solid blue; */
+    gap: 10px;
+}
+
+.question-container,
+.faq-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    /* border: 3px solid orange; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(44, 44, 44);
+    padding: 25px 15px;
+}
+
+.question-text,
+.question i {
+    color: white;
+}
+
+.question-text {
+    font-size: 24px;
+}
+
+.question i {
+    font-size: 45px;
+}
+
+.hero-question-email-container {
+    /* border: 3px solid darkmagenta; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.hero-question-email-container .email-container {
+    margin: 0px;
 }
