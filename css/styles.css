@@ -80,11 +80,12 @@ body {
     height: 32px;
 }
 
-.logo {
-    font-size: 44px;
-    color: rgb(229, 9, 20);
-    font-weight: 900;
-    /* border: 3px solid green; */
+
+img.logo {
+    /* border: 3px solid blue; */
+    width: auto;
+    height: 40px;
+
 }
 
 .hero-container {
