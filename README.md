@@ -9,5 +9,6 @@ For this project I will try to recreate the html and css aspects of the Netlfix 
 
 Current Pages Done/Work in Progress:
 ~ Landing Page
+~ Sign In Page
 
 The official netlfix website can be found at https://www.netflix.com/ 
