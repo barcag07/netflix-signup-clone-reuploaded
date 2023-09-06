@@ -10,13 +10,14 @@
     background-image: url(../img/main-netflix-movies.jpg);
     height: 100%;
     width: auto;
-    padding: 25px 45px;
+    /* padding: 25px 45px; */
     display: flex;
     flex-direction: column;
 }
 
 .header-container {
     /* border: 3px solid green; */
+    padding: 25px 45px;
 }
 
 img.logo {
