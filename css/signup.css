@@ -4,3 +4,127 @@
     padding: 0;
     font-family: 'Netflix sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
 }
+
+.page-container {
+    /* border: 3px solid red; */
+    background-image: url(../img/main-netflix-movies.jpg);
+    height: 100%;
+    width: auto;
+    padding: 25px 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+img.logo {
+    width: auto;
+    height: 45px;
+    align-self: flex-start;
+}
+
+.signin-box {
+    padding: 60px 68px 120px 68px;
+    background-color: rgba(0, 0, 0, .85);
+    /* border: 3px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-self: center;
+    gap: 15px;
+    margin-top: 22px;
+    margin-bottom: 90px;
+    width: 450px;
+    border-radius: 6px;
+}
+
+.signin-container {
+    /* border: 3px solid darkkhaki; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hero-signin {
+    /* border: 3px solid black; */
+    width: fit-content;
+    color: rgb(255,255,255);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.email-password-container {
+    /* border: 3px solid blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.signin {
+    /* border: 3px solid darkred; */
+    background-color: rgb(229, 9, 20);
+    padding: 20px 130px;
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    font-weight: 450;
+    height: 50px;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.email,
+.password {
+    height: 50px;
+    border-radius: 6px;
+    /* border: 3px solid blue; */
+    padding: 15px;
+    background-color: rgb(51,51,51);
+    color: rgb(255,255,255);
+    border: none;
+}
+
+.remember-help-container {
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-me-container {
+    /* border: 3px solid orange; */
+    display: flex;
+    gap: 5px;
+}
+
+.remember-me-text,
+.need-help {
+    color: rgb(144,140,139);
+    font-size: 14px;
+}
+
+.need-help {
+    text-decoration: none;
+}
+
+.signup-protected-container {
+    /* border: 3px solid hotpink; */
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.new-text {
+    color: rgb(115,115,115)
+}
+
+.new-text a {
+    color: white;
+    text-decoration: none;
+}
+
+.protected-text {
+    color: rgb(144,140,139);
+    font-size: 14px;
+    /* border: 3px solid gold; */
+}
