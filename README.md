@@ -1,7 +1,7 @@
 # Netflix-clone
 
 ATTENTION!   ATTENTION!   ATTENTION!   ATTENTION!   ATTENTION!   ATTENTION!   
-This website was made to practice my web developing skills. Please DO NOT provide or reveal any real personal information. If you would like to see my clone, press details If a warning appears and then click "visit this unsafe site". I made a ticket for the "report a detection problem", so until it is resolved this is my warning.
+This website was made to practice my web developing skills. Please DO NOT provide or reveal any real personal information. 
 
 
 
@@ -11,4 +11,6 @@ Current Pages Done/Work in Progress:
 ~ Landing Page
 ~ Sign In Page
 
-The official netlfix website can be found at https://www.netflix.com/ 
+Live Preview: https://barcag07.github.io/netflix-clone/
+
+The official Netlfix website can be found at https://www.netflix.com/ 
