@@ -8,7 +8,7 @@ This repository was temporarily removed after mistakenly flagged as dangerous. T
 
 For this project I will try to recreate the html and css aspects of the Netlfix landing page and possibly other pages on the website. I hope to clone the website with html and css and eventually javascript. I will also make the clone responsive, but not at the moment.
 
-Current Pages Done/Work in Progress:
+### Current Pages Done/Work in Progress:
 ~ Landing Page (Click Netflix Logo)
 ~ Sign In Page (Click Sign In Button)
 
